@@ -1,0 +1,62 @@
+body {
+  padding-top: 56px; /* Tinggi header navbar */
+}
+
+nav {
+  background-color: #700070;
+}
+
+nav a b {
+  font-size: 1.4em;
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 56px;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #f8f9fa;
+    padding-top: 1rem;
+  }
+
+  .main-content {
+    margin-left: 200px;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .sidebar {
+    background-color: #f8f9fa;
+    padding: 1rem;
+  }
+
+  nav a b {
+    font-size: 1em;
+  }
+
+  .main-content {
+    padding: 1rem;
+  }
+}
+
+/* Lebar offcanvas di mobile */
+@media (max-width: 767.98px) {
+  .offcanvas-end {
+    width: 250px !important;
+  }
+
+  .offcanvas-body .nav-link {
+    font-size: 1rem;
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+  }
+
+  .offcanvas-body .nav-link i {
+    font-size: 1.2rem;
+    margin-right: 10px;
+  }
+}

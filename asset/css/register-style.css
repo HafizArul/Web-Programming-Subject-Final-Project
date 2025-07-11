@@ -1,0 +1,10 @@
+body {
+  background-color: #e9ecef;
+}
+
+.register-card {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 12px;
+  background-color: #ffffff;
+}

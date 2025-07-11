@@ -1,0 +1,10 @@
+body {
+  background-color: #f2f2f2;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
