@@ -10,6 +10,13 @@ nav a b {
   font-size: 1.4em;
 }
 
+.main-content #postCard {
+  z-index: 10;
+  top: 60px;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+}
+
 @media (min-width: 768px) {
   .sidebar {
     position: fixed;
@@ -24,6 +31,10 @@ nav a b {
   .main-content {
     margin-left: 200px;
     padding: 1rem;
+  }
+
+  .main-content #postCard {
+    top: 72px;
   }
 }
 
