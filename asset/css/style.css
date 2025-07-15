@@ -10,13 +10,6 @@ nav a b {
   font-size: 1.4em;
 }
 
-.main-content #postCard {
-  z-index: 10;
-  top: 60px;
-  background-color: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(10px);
-}
-
 @media (min-width: 768px) {
   .sidebar {
     position: fixed;
@@ -33,8 +26,8 @@ nav a b {
     padding: 1rem;
   }
 
-  .main-content #postCard {
-    top: 72px;
+  .post-img-container {
+    height: 450px;
   }
 }
 
@@ -50,6 +43,10 @@ nav a b {
 
   .main-content {
     padding: 1rem;
+  }
+
+  .post-img-container {
+    height: 300px;
   }
 }
 
@@ -70,4 +67,15 @@ nav a b {
     font-size: 1.2rem;
     margin-right: 10px;
   }
+}
+
+/* Post Image Style */
+.post-image {
+  width: 100%;
+}
+
+.post-img-container {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 6px;
 }
