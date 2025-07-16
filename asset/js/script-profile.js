@@ -62,9 +62,13 @@ for (let i = 0; i < inputUserData.length; i++) {
 
 btnSave.addEventListener("click", function () {
     // Save Username
-    user.name = newUserName;
+    if (newUserName) {
+        user.name = newUserName;
+    }
     // Save User Status
-    user.status = newUserStatus;
+    if (newUserStatus) {
+        user.status = newUserStatus;
+    }
 
     localStorage.setItem("loggedInUser", JSON.stringify(user));
     location.reload();
